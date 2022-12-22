@@ -1,6 +1,6 @@
 # PWEB-Laporan-PDF
 
-- Nama : Rycahaya Sri Hutomo
-- NRP : 5025201046
+- Nama : Naily Khairiya
+- NRP : 5025201244
 - Kelas : Pemrograman Web C
 - Tahun : 2022
