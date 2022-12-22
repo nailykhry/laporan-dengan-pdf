@@ -24,7 +24,8 @@ $pdf->Cell(25,6,'TANGGAL LHR',1,1);
 $pdf->SetFont('Arial','',10);
 
 include 'koneksi.php';
-$mahasiswa = mysqli_query($connect, "select * from mahasiswa");
+$query = "SELECT * FROM mahasiswa";
+$mahasiswa = mysqli_query($connect, $query);
 while ($row = mysqli_fetch_array($mahasiswa)){
     $pdf->Cell(20,6,$row['nim'],1,0);
     $pdf->Cell(85,6,$row['nama_lengkap'],1,0);
